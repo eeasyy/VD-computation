@@ -10,7 +10,7 @@ let lerpSpeed = 0.05;
 function setup() {
   createCanvas(1080, 1080);
   noStroke();
-  background(245, 245, 240);
+
 
   
   const CELL = width / (GRID + 1); 
@@ -31,7 +31,7 @@ let clickCount = 0;
 
 function draw() {
   
-
+  background(245, 245, 240);
 
   for (let i = 0; i < circleX.length; i++) {
     
@@ -60,6 +60,7 @@ function draw() {
     }
     
     circle(circleX[i], circleY[i], circleSize);
+ 
   }
 
 }
