@@ -68,3 +68,4 @@ function draw() {
 function mouseClicked() {
   clickCount = clickCount + 1;
 }
+
